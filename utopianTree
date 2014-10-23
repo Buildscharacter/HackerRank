@@ -1,0 +1,10 @@
+tree_height = 1
+for i in range(int(raw_input())):
+	C = int(raw_input())
+	for x in range(0, C):
+		if x % 2 != 0:
+			tree_height += 1
+		else:
+			tree_height *= 2
+	print tree_height
+	tree_height = 1
